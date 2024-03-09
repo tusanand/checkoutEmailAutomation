@@ -74,7 +74,7 @@ subject = 'Checkout Form {} <your first name>'.format(current_date)
 msg['Subject'] = subject
 
 # Set the email body
-body = """Hi Julian/Julia,
+body = """Hi <recipients>,
 
 <email body>
 
