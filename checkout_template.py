@@ -59,7 +59,7 @@ wb.save(new_path)
 
 # Set up the email message
 msg = MIMEMultipart()
-msg['From'] = 'Tushar Anand <tanand7@asu.edu>'
+msg['From'] = 'Tushar Anand <sender@email.com>'
 
 # Set the email recipients as a list
 to_recipients = ['recipient@email.com']
